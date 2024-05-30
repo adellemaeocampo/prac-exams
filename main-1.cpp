@@ -3,7 +3,6 @@
 #include "Effect.h"
 #include "Utils.h"
 
-
 Cell::Cell(int x, int y, char type) : position(x, y), type(type) {}
 std::tuple<int, int> Cell::getPos() const {
     return position;

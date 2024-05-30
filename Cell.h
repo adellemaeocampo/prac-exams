@@ -13,7 +13,7 @@ public:
     void setPos(int x, int y);
     void setType(char type);
 
-private:
+protected:
     std::tuple<int, int> position;
     char type;
 };
